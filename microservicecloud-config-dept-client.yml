@@ -7,7 +7,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: ﻿microservicecloud-config-dept-client
+    name: microservicecloud-config-dept-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -29,11 +29,11 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
-    instance-id: ﻿dept-8001.com                 #修改注册到eureka 的实例名称
+    instance-id: dept-8001.com                 #修改注册到eureka 的实例名称
     prefer-ip-address: true
     
 info:
-  app.name: ﻿atguigu-microservicecloud-springcloudconfig01
+  app.name: atguigu-microservicecloud-springcloudconfig01
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
@@ -41,9 +41,9 @@ info:
 server:
   port: 8001
 spring:
-  profiles: dev
+  profiles: test
   application:
-    name: ﻿microservicecloud-config-dept-client
+    name: microservicecloud-config-dept-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -65,11 +65,11 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
-    instance-id: ﻿dept-8001.com                 #修改注册到eureka 的实例名称
+    instance-id: dept-8001.com                 #修改注册到eureka 的实例名称
     prefer-ip-address: true
     
 info:
-  app.name: ﻿atguigu-microservicecloud-springcloudconfig02
+  app.name: atguigu-microservicecloud-springcloudconfig02
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
